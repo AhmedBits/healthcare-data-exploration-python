@@ -155,18 +155,22 @@ healthcare-data-exploration-python/
 
 ## How to Run
 
-1. Clone the repository.
-2. Install the required Python libraries.
-3. Open the Jupyter notebook.
-4. Run the notebook cells sequentially.
+1. Clone the repository
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+3. Open ```notebooks/healthcare_analysis.ipynb```
+4. Run the notebook cells sequentially
 
 ## Limitations
 
-This analysis uses a synthetic dataset and should not be interpreted as representing real-world patient populations or clinical outcomes. The dataset contains 500 patient records, which limits the validity of the findings. The analysis is intended to demonstrate a practical healthcare analytics workflow rather than provide clinical conclusions.
+This analysis uses a synthetic dataset and should not be interpreted as representing real-world patient populations or clinical outcomes. The dataset contains 500 patient records, which limits the generalizability of the findings. The analysis is intended to demonstrate a practical healthcare analytics workflow rather than provide clinical conclusions.
 
 ## Future Improvements
 
 - Analyze larger synthetic or de-identified healthcare datasets.
-- Expand the analysis with additional operational KPIs.
-- Compare trends across multiple hospitals or departments.
-- Incorporate interactive dashboards using Tableau or Power BI.
+- Expand the analysis with additional healthcare operational KPIs.
+- Compare patient outcomes across multiple hospitals or facilities.
+- Incorporate additional healthcare quality and utilization measures.
